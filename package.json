@@ -1,0 +1,27 @@
+{
+  "name": "files-painter",
+  "version": "1.0.3",
+  "description": "describe files relationship by tree map and create a paint for different types file",
+  "main": "bin/index.js",
+  "bin": "bin/index.js",
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "files"
+  ],
+  "author": "dzg-melody",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "semistandard": "^12.0.1"
+  }
+}
